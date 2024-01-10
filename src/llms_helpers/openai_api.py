@@ -22,7 +22,7 @@ def query_open_ai(prompt, model_name="babbage-002", max_tokens=150, temperature=
     """
 
     # Ensure your API key is set
-    openai.api_key = "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" #"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"#os.getenv('OPENAI_API_KEY')
+    openai.api_key = os.getenv('OPENAI_API_KEY')
     
     if not openai.api_key:
         raise ValueError("API key not found. Ensure it's set in your secrets_config.env file.")
