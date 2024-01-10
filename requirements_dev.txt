@@ -1,0 +1,13 @@
+ipython
+jupyter
+jupyterlab
+ipykernel
+seaborn
+matplotlib
+statsmodels
+scikit-learn
+mca
+graphviz
+dash
+plotly
+translate

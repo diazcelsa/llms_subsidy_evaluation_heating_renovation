@@ -1,0 +1,12 @@
+pandas
+numpy
+numpy-financial
+requests
+openai==0.27.1
+MarkupSafe==2.0.1
+Flask==2.0.1
+Jinja2==3.0.3
+PyYAML==5.4.1
+python-dotenv
+pyreadstat
+linearmodels
